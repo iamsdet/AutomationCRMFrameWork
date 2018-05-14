@@ -1,6 +1,10 @@
 package com.autodeskcrm.genericlib;
 
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -11,6 +15,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class WebDriverCommonLib {
+	
+	public static HashMap<String, String> map = new HashMap();
+	
+	public void getWindowIDs(){
+		Set<String> set = BaseClass.driver.getWindowHandles();
+         Iterator<String> it = set.iterator();
+         String pID = it.next();
+         String cID = it.next();
+         map.put("parentID", pID);
+         map.put("childID", cID);
+	}
 	
 	
 	public void select(WebElement selectelemnet ,String data){
