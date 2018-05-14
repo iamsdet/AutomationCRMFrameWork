@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39128" started-at="2018-05-14T07:52:37Z" finished-at="2018-05-14T07:53:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39128" started-at="2018-05-14T07:52:37Z" finished-at="2018-05-14T07:53:17Z">
+      <class name="com.autodeskcrm.orgtest.OrgTest">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeSuite" is-config="true" duration-ms="310" started-at="2018-05-14T13:22:37Z" finished-at="2018-05-14T13:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeSuite -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBM" is-config="true" duration-ms="6083" started-at="2018-05-14T13:22:37Z" finished-at="2018-05-14T13:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeMtd" is-config="true" duration-ms="4531" started-at="2018-05-14T13:22:44Z" finished-at="2018-05-14T13:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="createORgTest()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="createORgTest" duration-ms="11273" started-at="2018-05-14T13:22:48Z" finished-at="2018-05-14T13:22:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createORgTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterMtd" is-config="true" duration-ms="1585" started-at="2018-05-14T13:22:59Z" finished-at="2018-05-14T13:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeMtd" is-config="true" duration-ms="3250" started-at="2018-05-14T13:23:01Z" finished-at="2018-05-14T13:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBeforeMtd -->
+        <test-method status="PASS" signature="createORgWithTypeTest()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="createORgWithTypeTest" duration-ms="10861" started-at="2018-05-14T13:23:04Z" finished-at="2018-05-14T13:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createORgWithTypeTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterMtd" is-config="true" duration-ms="1513" started-at="2018-05-14T13:23:15Z" finished-at="2018-05-14T13:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterMtd -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAM" is-config="true" duration-ms="14" started-at="2018-05-14T13:23:17Z" finished-at="2018-05-14T13:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterSuite" is-config="true" duration-ms="444" started-at="2018-05-14T13:23:17Z" finished-at="2018-05-14T13:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAfterSuite -->
+      </class> <!-- com.autodeskcrm.orgtest.OrgTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

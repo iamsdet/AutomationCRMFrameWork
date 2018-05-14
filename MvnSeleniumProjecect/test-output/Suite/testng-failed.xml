@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.autodeskcrm.quotetest.QuoteTest">
+        <methods>
+          <include name="editQuoteTest"/>
+          <include name="configBM"/>
+          <include name="configBeforeMtd"/>
+          <include name="searchQuoteTest"/>
+          <include name="configAfterMtd"/>
+        </methods>
+      </class> <!-- com.autodeskcrm.quotetest.QuoteTest -->
+      <class name="com.autodeskcrm.orgtest.OrgTest">
+        <methods>
+          <include name="searchOrgTest"/>
+          <include name="createOrgTest"/>
+          <include name="modifyOrgTest"/>
+        </methods>
+      </class> <!-- com.autodeskcrm.orgtest.OrgTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
