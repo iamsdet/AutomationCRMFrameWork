@@ -16,6 +16,7 @@ import com.autodeskcrm.objectrepositorylib.Orgnizations;
 import com.autodeskcrm.objectrepositorylib.Product;
 import com.autodeskcrm.objectrepositorylib.SalesOrder;
 import com.autodeskcrm.objectrepositorylib.SalesOrderInfoPage;
+import com.autodeskcrm.objectrepositorylib.editingSalesOrderpage;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -105,10 +106,57 @@ public class SalesOrderTest extends BaseClass
 		
 		/*step 11 : verify sales order*/
 		logger.log(LogStatus.INFO, "verifysales order  ");
-		SalesOrderInfoPage sales=PageFactory.initElements(driver, SalesOrderInfoPage.class);
+		SalesOrder sales=PageFactory.initElements(driver, SalesOrder.class);
 		sales.verifysalesorder();
-		
+		extent.endTest(logger);
 	
+	}
+	
+	/**
+	 * 1. login to CRm
+	 * 2. navigate to sales order page
+	 * 3. select any record
+	 * 4. click on edit
+	 * 5. modify sales order 
+	 * 6. verify modified sales order
+	 * @throws Throwable 
+	 */
+	@Test
+	public void modifySalesOrderTest() throws Throwable
+	{
+		ExtentTest logger =  extent.startTest("modifySalesOrderTest");
+		String newsubject=elib.getExcelData("salesorder", 4, 2);
+		
+		/* step 2 : navigate to salesorder page */
+		logger.log(LogStatus.INFO, "navigate to salesorder page");
+		
+		Home hpage=PageFactory.initElements(driver, Home.class);
+		hpage.navigateToSalesorder();
+		
+		/* step 3: select one record*/
+		logger.log(LogStatus.INFO, "select one record");
+		
+		SalesOrder spage=PageFactory.initElements(driver, SalesOrder.class);
+		spage.selectrecord();
+		
+		/*sstep 4 : navigate to sales order info page and go for edit*/
+		logger.log(LogStatus.INFO, " navigate to sales order info page and go for edit");
+		
+		SalesOrderInfoPage sinfopage=PageFactory.initElements(driver, SalesOrderInfoPage.class);
+		sinfopage.editrecord();
+		
+		/*step 5: modify record*/
+		logger.log(LogStatus.INFO, "modify record");
+		editingSalesOrderpage epage=PageFactory.initElements(driver, editingSalesOrderpage.class);
+		epage.modifyrecor(newsubject);
+		
+		
+		
+		extent.endTest(logger);
+		
+		
+		
+		
 	}
 	
 }

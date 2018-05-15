@@ -4,19 +4,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
-public class SalesOrderInfoPage 
+import com.autodeskcrm.genericlib.WebDriverCommonLib;
+
+public class SalesOrderInfoPage extends WebDriverCommonLib
 {
-	@FindBy(xpath="//span[@class='lvtHeaderText']")
-	WebElement createdvisibletext;
+	@FindBy(name="Edit")
+	WebElement editbtn;
 	
-	public void verifysalesorder()
+	public void editrecord()
 	{
-	String expvalue="Sales Order Information";
-	String actvalue=createdvisibletext.getText();
-	
-	System.out.println(actvalue);
-	boolean b=actvalue.contains(expvalue);
-	System.out.println(b);
-	Assert.assertEquals(true, b);
+		WebDriverCommonLib wlib=new WebDriverCommonLib();
+		wlib.waitForElemnet(editbtn);
+		editbtn.click();
+		
 	}
+	
+	
+	
 }
