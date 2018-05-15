@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.autodeskcrm.orgtest.OrgTest">
+      <class name="com.f5solutioncrm.leadtest.LeadTest">
         <methods>
-          <include name="configBM"/>
           <include name="configBeforeMtd"/>
+          <include name="configBM"/>
+          <include name="configAM"/>
+          <include name="CreateLeadTest"/>
           <include name="configAfterMtd"/>
-          <include name="createORgWithTypeTest"/>
+          <include name="configAfterSuite"/>
           <include name="configBeforeSuite"/>
         </methods>
-      </class> <!-- com.autodeskcrm.orgtest.OrgTest -->
+      </class> <!-- com.f5solutioncrm.leadtest.LeadTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

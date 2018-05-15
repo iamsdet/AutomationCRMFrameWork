@@ -50,7 +50,7 @@ public class BaseClass {
 					"./src/main/resources/resource/IEDriverserver.exe");
 			driver = new ChromeDriver();
 		}
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 
 	@BeforeMethod

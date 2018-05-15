@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39128" started-at="2018-05-14T07:52:37Z" finished-at="2018-05-14T07:53:17Z">
+  <suite name="Default suite" duration-ms="51472" started-at="2018-05-14T11:20:25Z" finished-at="2018-05-14T11:21:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39128" started-at="2018-05-14T07:52:37Z" finished-at="2018-05-14T07:53:17Z">
-      <class name="com.autodeskcrm.orgtest.OrgTest">
-        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeSuite" is-config="true" duration-ms="310" started-at="2018-05-14T13:22:37Z" finished-at="2018-05-14T13:22:37Z">
+    <test name="Default test" duration-ms="51472" started-at="2018-05-14T11:20:25Z" finished-at="2018-05-14T11:21:16Z">
+      <class name="com.f5solutioncrm.leadtest.LeadTest">
+        <test-method status="PASS" signature="configBeforeSuite()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configBeforeSuite" is-config="true" duration-ms="305" started-at="2018-05-14T11:20:24Z" finished-at="2018-05-14T11:20:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeSuite -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBM" is-config="true" duration-ms="6083" started-at="2018-05-14T13:22:37Z" finished-at="2018-05-14T13:22:44Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configBM" is-config="true" duration-ms="9318" started-at="2018-05-14T11:20:25Z" finished-at="2018-05-14T11:20:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeMtd" is-config="true" duration-ms="4531" started-at="2018-05-14T13:22:44Z" finished-at="2018-05-14T13:22:48Z">
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configBeforeMtd" is-config="true" duration-ms="6543" started-at="2018-05-14T11:20:34Z" finished-at="2018-05-14T11:20:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createORgTest()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="createORgTest" duration-ms="11273" started-at="2018-05-14T13:22:48Z" finished-at="2018-05-14T13:22:59Z">
+        <test-method status="PASS" signature="CreateLeadTest()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="CreateLeadTest" duration-ms="15058" started-at="2018-05-14T11:20:41Z" finished-at="2018-05-14T11:20:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createORgTest -->
-        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterMtd" is-config="true" duration-ms="1585" started-at="2018-05-14T13:22:59Z" finished-at="2018-05-14T13:23:01Z">
+        </test-method> <!-- CreateLeadTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configAfterMtd" is-config="true" duration-ms="2432" started-at="2018-05-14T11:20:56Z" finished-at="2018-05-14T11:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMtd -->
-        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configBeforeMtd" is-config="true" duration-ms="3250" started-at="2018-05-14T13:23:01Z" finished-at="2018-05-14T13:23:04Z">
+        <test-method status="PASS" signature="configBeforeMtd()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configBeforeMtd" is-config="true" duration-ms="3833" started-at="2018-05-14T11:20:58Z" finished-at="2018-05-14T11:21:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBeforeMtd -->
-        <test-method status="PASS" signature="createORgWithTypeTest()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="createORgWithTypeTest" duration-ms="10861" started-at="2018-05-14T13:23:04Z" finished-at="2018-05-14T13:23:15Z">
+        <test-method status="PASS" signature="CreateLeadWithStatusTest()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="CreateLeadWithStatusTest" duration-ms="12234" started-at="2018-05-14T11:21:02Z" finished-at="2018-05-14T11:21:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createORgWithTypeTest -->
-        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterMtd" is-config="true" duration-ms="1513" started-at="2018-05-14T13:23:15Z" finished-at="2018-05-14T13:23:17Z">
+        </test-method> <!-- CreateLeadWithStatusTest -->
+        <test-method status="PASS" signature="configAfterMtd()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configAfterMtd" is-config="true" duration-ms="2007" started-at="2018-05-14T11:21:14Z" finished-at="2018-05-14T11:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterMtd -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAM" is-config="true" duration-ms="14" started-at="2018-05-14T13:23:17Z" finished-at="2018-05-14T13:23:17Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configAM" is-config="true" duration-ms="13" started-at="2018-05-14T11:21:16Z" finished-at="2018-05-14T11:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.autodeskcrm.orgtest.OrgTest@42d80b78]" name="configAfterSuite" is-config="true" duration-ms="444" started-at="2018-05-14T13:23:17Z" finished-at="2018-05-14T13:23:17Z">
+        <test-method status="PASS" signature="configAfterSuite()[pri:0, instance:com.f5solutioncrm.leadtest.LeadTest@1aab78]" name="configAfterSuite" is-config="true" duration-ms="422" started-at="2018-05-14T11:21:16Z" finished-at="2018-05-14T11:21:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAfterSuite -->
-      </class> <!-- com.autodeskcrm.orgtest.OrgTest -->
+      </class> <!-- com.f5solutioncrm.leadtest.LeadTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
