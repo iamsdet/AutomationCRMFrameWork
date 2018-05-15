@@ -120,30 +120,30 @@ import com.relevantcodes.extentreports.LogStatus;
              * @throws Throwable 
              * 
              */
-            @Test(priority=2)
+           /* @Test(priority=2)
             public void DeletePriceBook() throws Throwable {
             	 ExtentTest logger =  extent.startTest("createPriceBookTest");	
  				
- 				/*read the data from Excel*/ 
+ 				read the data from Excel 
  				String pricebk = elib.getExcelData("Pricebook", 1, 2);
  				
- 				/*Step-2 Navigate to PriceBooks Page*/
+ 				Step-2 Navigate to PriceBooks Page
  				logger.log(LogStatus.INFO, "Navigate to PriceBooks Page");
  				Home homePage = PageFactory.initElements(driver, Home.class);
  				homePage.naviagteToPriceBooks(driver);
  				
- 				/*Step-3 Delete the Pricebook record*/
+ 				Step-3 Delete the Pricebook record
  				logger.log(LogStatus.INFO, "Delete the Pricebook record");
  				CreateNewPriceBook CreatePage =PageFactory.initElements(driver, CreateNewPriceBook.class);
  				CreatePage.deletePriceBook();
  				
- 				/*Step-4 Search for particular record and Verify that*/
+ 				Step-4 Search for particular record and Verify that
  				logger.log(LogStatus.INFO, "Search for particular record and Verify that");
  				CreateNewPriceBook CreatePage1 =PageFactory.initElements(driver, CreateNewPriceBook.class);
  				CreatePage1.searchText();
  				
  				extent.endTest(logger);
-            }
+            }*/
 	
 	
 	
