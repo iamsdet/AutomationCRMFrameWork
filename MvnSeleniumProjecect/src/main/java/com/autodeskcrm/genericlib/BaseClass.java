@@ -37,6 +37,9 @@ public class BaseClass {
 	@BeforeClass
 	public void configBM(){
 		String bNAme = System.getProperty("browser");
+		
+		System.out.println("browserNAme======>"+bNAme);
+		
 		System.out.println("====launch the Browser=====");
 		if(bNAme.equals("firefox")){
 		 driver = new FirefoxDriver();
@@ -60,6 +63,7 @@ public class BaseClass {
 		pObj.load(fis);
 
 		String url = System.getProperty("url");
+		System.out.println("url======>"+url);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.navigate().to(url);                                     
 		//login to APP
